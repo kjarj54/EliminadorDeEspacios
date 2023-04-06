@@ -24,7 +24,7 @@ int main(){
   	}
   	
   	buffer[indice] = '\0';
-  	cout<<" El texto se le han borrado los espacios y es el siguiente:\n"<<buffer<<endl;
+  	cout<<"\n El texto se le han borrado los espacios y es el siguiente:\n"<<buffer<<endl;
   	delete[] buffer;
     return 0;
 }
